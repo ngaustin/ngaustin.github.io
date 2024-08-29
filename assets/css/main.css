@@ -1204,7 +1204,11 @@ input[type="radio"] + label:before {
   .icon > .label {
     display: none; }
   .icon:before {
-    line-height: inherit; }
+    line-height: inherit; 
+    color: #f56a6a;
+    font-size: 2.75rem;
+    position: relative;
+    top: 0.05em;}
   .icon.solid:before {
     font-weight: 900; }
   .icon.brands:before {
