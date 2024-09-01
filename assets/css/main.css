@@ -1602,12 +1602,14 @@ button,
     padding-top: 0; }
   
   .mini-posts span{
-    display: none;
-    position: absolute;
+    display: table;
+    margin: 0 auto;
+    color: rgba(224, 188, 186,.8);
     bottom: 0;
+    height: 100%;
     width: 100%;
     padding: 10px;
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, .5);
   }
 
   .mini-posts:hover span{
