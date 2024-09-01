@@ -1604,8 +1604,7 @@ button,
   .mini-posts span{
     display: none;
     position: absolute;
-    text-align:center;
-    color: rgba(224, 188, 186,.8);
+    color: rgba(224, 188, 186, .8);
     bottom: 0;
     width: 100%;
     padding: 10px;
