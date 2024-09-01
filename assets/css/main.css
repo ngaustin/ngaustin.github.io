@@ -1600,6 +1600,19 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+  
+  .mini-posts span{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, .8);
+  }
+
+  .mini-posts:hover span{
+    display: block
+  }
 
 /* Features */
 .features {
