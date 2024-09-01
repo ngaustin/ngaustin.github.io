@@ -1602,8 +1602,8 @@ button,
     padding-top: 0; }
   
   .mini-posts span{
-    display: table;
-    margin: 0 auto;
+    display: none;
+    text-align:center;
     color: rgba(224, 188, 186,.8);
     bottom: 0;
     height: 100%;
