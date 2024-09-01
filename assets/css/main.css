@@ -1601,25 +1601,6 @@ button,
     margin-top: 0;
     padding-top: 0; }
 
-  .mini-posts:hover .image{
-    opacity: .3
-  }
-  
-  .mini-posts span{
-    display: none;
-    position: absolute;
-    align-items: center; 
-    justify-content: center;
-    color:rgba(224, 188, 186);
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-  }
-
-  .mini-posts:hover span{
-    display: block
-  }
-
 /* Features */
 .features {
   display: -moz-flex;
