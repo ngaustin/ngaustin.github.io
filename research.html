@@ -42,16 +42,14 @@
 									<div class="row gtr-200">
 										<div class="col-6 col-12-medium">
 											<h2> Mission Statement </h2>
-											<p>I work at the intersection of multi-agent reinforcement learning and game theory. I primarily devise game-solving algorithms that minimize computation and data resources. 
-												I believe there are several hurdles that need to be addressed before multi-agent learning systems can be introduced and assimilated into the real world, of which I hope to address during my time at the University of Michigan. 
-												My research works to expand the reliability, efficiency, and efficacy of multi-agent learning algorithms and ground them in game-theoretic principles. </p>
+											<p> I believe there are several hurdles to cross before multi-agent learning systems can be used for real world applications, of which I hope to address during my time at the University of Michigan. 
+												My research is in the design of <b>efficient</b> algorithms that expand the <b>reliability</b> and <b>efficacy</b> of multi-agent learning systems by grounding them in reinforcement learning and game theoretic principles. 
+												 </p>
 
 											<h2>Have Fun Looking Around</h2>
-											<p>Who says a research page should be bland? <br><br>
-												
-												Just like research, this page is colorful, playful, and fun. I'm not saying 
-												my job is happy and dandy all the time, but I just think that things that are serious deserve some love sometimes, especially when you care about it. 
-												Take a look at the research I've been involved with. I know it's a bit sparse, but I'm working my way up. 
+											<p>Just like research, I tried to make this page is colorful, (hopefully) appealing, and fun. I'm not saying 
+												my job is happy and dandy all the time...I just think that things that are serious deserve some love sometimes, especially when you care about it. 
+												Take a look at my research! I know it's sparse, but I'm working my way up. 
 											</p>
 										</div>
 
@@ -84,19 +82,21 @@
 										</div>
 									</div>
 
+									<hr class="major" />
 									<h2> Current Project </h2>
 									<div class="box">
 										<p>I am currently working on two projects. One will (hopefully) be published soon and the other is still half-baked. 
 											I promise it's very exciting stuff and will post it soon. </p>
 									</div>
 
+									<hr class="major" />
 									<h2> Later Class Projects </h2>
 									<div class="row">
 										<div class="col-4 col-12-medium">
-											<h3>(Fully) Online Decision Transformer</h3>
+											<h3>Fully Online Decision Transformer</h3>
 											<a href="images/annotated-EECS_595_Final_Report.pdf" class="image fit mini-posts"><img src="images/cheetah_crop.gif" alt="" /></a>
-											<p>A good friend of mine and I built upon the recent Decision Transformer for an NLP class at the University of Michigan. 
-												We decided to adapt this approach offline, supervised learning approach to online contexts, using a SOTA online RL algorithm as an exploration policy to feed informative behavior to the Decision Transformer for online training. Great results.</p>
+											<p>A good friend of mine and I built upon the recent Decision Transformer (DT) for an NLP class at the UMich. 
+												We adapted DT to online contexts, training the Decision Transformer tabula rasa with a SOTA online RL algorithm for exploration.</p>
 											<ul class="actions">
 												<li><a href="images/annotated-EECS_595_Final_Report.pdf" class="button big">Read More</a></li>
 											</ul>
@@ -104,8 +104,8 @@
 										<div class="col-4 col-12-medium">
 											<h3>RL for Adversarial Text Generation</h3>
 											<a href="images/annotated-EECS_598_012_Project_Report.pdf" class="image fit mini-posts"><img src="images/adversarial_attack.png" alt="" /></a>
-											<p> A group of friends and I put forward our take on adversarial text generation. Our goal was to fool state-of-the-art text classification models by using an RL method that systematically swapped words from input texts. 
-												Definitely did not yield the best results, but it was a fun project to work on nonetheless.</p>
+											<p> A group of friends and I gave our take on adversarial text generation. We used an RL method that adversarially 
+												swapped words in input texts to fool state-of-the-art text classification models. Not yield the best results...but a fun project.</p>
 											<ul class="actions">
 												<li><a href="images/annotated-EECS_598_012_Project_Report.pdf" class="button big">Read More</a></li>
 											</ul>
@@ -119,11 +119,13 @@
 											</ul>
 										</div>
 									</div>
-								
+
+									<hr class="major" />
 									<div class="row gtr-200">
 										<div class="col-6 col-12-medium">
-											<h2>Undergradudate Honors Thesis</h2>
+											
 											<h2>Ant-Inspired Decentralized MARL </h2>
+											<h3>Undergraduate Honors Thesis</h3>
 										
 											<p> Ants communicate and coordinate with each other through pheromones, which can induce some amazing joint behavior. This project investigated whether RL agents could learn to do the same: decentralized coordination through pheromone communication. </p>
 												
@@ -161,9 +163,13 @@
 										<header>
 											<h2> Bayesian Conservative Reinforcement Learning </h2>
 										</header>
-										<p> For UC Berkeley's Deep Reinforcement Learning Class (CS 285), a few friends and I combined two recent RL approaches to create a conservative single-agent RL algorithm. Conservatism was achieved by optimizing return CVar, the worst-case return within a specified percentile. 
-											This project made me realize that optimizing for average utility might not be advantageous in every scenario. For example, in a driving scenario, it is obviously unlikely to encounter hazards on the road. However, optimizing ML agents in the average case may not account for this 
-											situation. As a result, sometimes optimizing for the "worst-case" scenarios are valuable for ML agents.</p>
+										<p> For UC Berkeley's Deep Reinforcement Learning Class (CS 285), a few friends and I combined two recent RL approaches to create a conservative single-agent RL algorithm, 
+											maximizing the worst-case return within a specificed lower percentile (CVar). Cool project. </p>
+											
+										<h4>Why Conservatism Matters</h4>
+										<blockquote>Sometimes optimizing for the "worst-case" scenario is valuable to us. For example, it is unlikely to encounter road hazards while driving. 
+											However, agents that optimize for the average case may not account for this situation, whereas more risk-averse agents would be more prepared. </blockquote>
+											
 										<ul class="actions">
 											<li><a href="#" class="button big">Read More</a></li>
 										</ul>
